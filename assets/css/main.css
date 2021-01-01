@@ -385,6 +385,7 @@ hr {
 
 #features .box-item .text h4 {
   cursor: pointer;
+  text-align: left;
   font-size: 18px;
   font-weight: 500;
   line-height: 22px;
@@ -397,6 +398,7 @@ hr {
 #features .box-item .text p {
   font-size: 14px;
   line-height: 26px;
+  text-align: left;
 }
 
 #features .box-item:hover {
@@ -1279,7 +1281,7 @@ textarea {
 /* Footer Area Start */
 .footer-area {
   position: relative;
-  padding: 150px 0px 0px;
+  padding: 1px 0px 0px;
   background: #fff;
 }
 
@@ -1413,4 +1415,14 @@ textarea {
 
 .social-icon .google:hover {
   background: #CE332A;
+}
+.my-margin {
+  height: 1px;
+  margin: 0 auto 30px;
+  position: relative;
+  width: 90%;
+  background-color: #F63854;
+}
+.my-btn-margin{
+  margin-left: 84%;
 }
